@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Summary</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2d2727;
+            background-image: url('https://cdn.sanity.io/images/cctd4ker/production/1a8e1664f748d6543e6c711297cd08fce470bcf0-1920x1080.jpg?w=3840&q=75&fit=clip&auto=format');
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Navigation Bar Styles */
+        .navigation {
+            background-color: #333;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 5px 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navigation a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navigation a:hover {
+            background-color: #575757;
+            color: white;
+        }
+
+        /* Booking Summary Container */
+        .booking-summary {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .booking-summary h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .booking-summary p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .booking-summary .label {
+            font-weight: bold;
+        }
+
+        .booking-summary .value {
+            margin-left: 10px;
+        }
+
+        .booking-summary button {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .booking-summary button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar (Optional) -->
+    <div class="navigation">
+        <!-- Add navigation links here -->
+    </div>
+
+    <!-- Booking Summary -->
+    <div class="booking-summary">
+        <h2>Booking Summary</h2>
+        <p><span class="label">Name:</span> <span class="value">{{ ticket.name }}</span></p>
+        <p><span class="label">Email:</span> <span class="value">{{ ticket.email }}</span></p>
+        <p><span class="label">Phone:</span> <span class="value">{{ ticket.phone }}</span></p>
+        <p><span class="label">Event:</span> <span class="value">{{ ticket.title }}</span></p>
+        <p><span class="label">Visit Date:</span> <span class="value">{{ ticket.visit_date }}</span></p>
+        <p><span class="label">Adults:</span> <span class="value">{{ ticket.adults }}</span></p>
+        <p><span class="label">Students:</span> <span class="value">{{ ticket.students }}</span></p>
+        <p><span class="label">Children:</span> <span class="value">{{ ticket.children }}</span></p>
+        <p><span class="label">Total Amount:</span> <span class="value">Rs{{ ticket.total_amount }}</span></p>
+
+        <form method="POST">
+            <button type="submit">Make Payment</button>
+        </form>
+    </div>
+</body>
+
+</html>
