@@ -1,4 +1,3 @@
-![Screenshot 2024-11-29 014650](https://github.com/user-attachments/assets/3601af23-4a74-44da-8820-ef10963c5551)
 # Movie-Ticket-Booking-Sysem
 🎬 Movie Ticket Booking System 🎟️
 A user-friendly and feature-rich Movie Ticket Booking System designed for an effortless online ticket booking experience. This web-based platform allows users to browse trending movies, choose seats, and book tickets seamlessly. The system also includes an admin panel for managing movies, tracking user activity, and generating sales reports.
@@ -19,6 +18,7 @@ Frontend: HTML, CSS, JavaScript
 Backend: Python Flask
 Database: MySQL
 📸 Example Outputs
+![Screenshot 2024-11-29 014650](https://github.com/user-attachments/assets/3601af23-4a74-44da-8820-ef10963c5551)
 ![Screenshot 2024-11-29 014650](https://github.com/user-attachments/assets/3601af23-4a74-44da-8820-ef10963c5551)
 ![Screenshot 2024-11-29 014905](https://github.com/user-attachments/assets/59d850cb-41b6-495a-ab19-838ca2ec385a)
 ![Screenshot 2024-11-29 014421](https://github.com/user-attachments/assets/e55ca399-c630-4835-840e-0e64cfd253c5)
