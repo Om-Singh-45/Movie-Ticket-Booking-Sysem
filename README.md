@@ -19,7 +19,6 @@ Backend: Python Flask
 Database: MySQL
 📸 Example Outputs
 ![Screenshot 2024-11-29 014650](https://github.com/user-attachments/assets/3601af23-4a74-44da-8820-ef10963c5551)
-![Screenshot 2024-11-29 014650](https://github.com/user-attachments/assets/3601af23-4a74-44da-8820-ef10963c5551)
 ![Screenshot 2024-11-29 014905](https://github.com/user-attachments/assets/59d850cb-41b6-495a-ab19-838ca2ec385a)
 ![Screenshot 2024-11-29 014421](https://github.com/user-attachments/assets/e55ca399-c630-4835-840e-0e64cfd253c5)
 ![Screenshot 2024-11-29 014852](https://github.com/user-attachments/assets/f05f1f09-5301-48bc-bce9-913e153392c1)
